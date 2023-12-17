@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="btn">
+    <file>left_arrow.png</file>
+    <file>right_arrow.png</file>
+    <file>search.png</file>
+    <file>SearchButton.png</file>
+    <file>down_arrow1.png</file>
+    <file>down_lines.png</file>
+    <file>down.png</file>
+    <file>hor_line.png</file>
+  </qresource>
+</RCC>

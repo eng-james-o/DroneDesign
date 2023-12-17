@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.326" height="45.326" viewBox="0 0 42.326 45.326">
+  <g id="Group_6" data-name="Group 6" transform="translate(-385 -264)">
+    <g id="SearchButton">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(388 267)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="13" fill="none"/>
+      </g>
+      <line id="Line_4" data-name="Line 4" x2="13" y2="14" transform="translate(411.5 292.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="42" height="45" transform="translate(385 264)" fill="none"/>
+  </g>
+</svg>
