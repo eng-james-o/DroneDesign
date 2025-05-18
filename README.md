@@ -47,7 +47,7 @@ Upon launching, the GUI will allow you to input design parameters, perform calcu
 
 Project Structure
 
-bash```
+text```
 DroneDesign/
 ├── BreezeStyleSheets/       # Custom QML stylesheets for GUI theming
 ├── PERFILES_WEB/            # Web-based profiles or resources
@@ -69,8 +69,7 @@ DroneDesign/
 ├── main.pyproject.user      # User-specific project settings
 ├── Newmainwindow.ui         # UI design file
 ├── SearchButton.svg         # SVG asset for search functionality
-└── README.md                # Project documentation
-```
+└── README.md                # Project documentation ```
 
 ## Dependencies
 
