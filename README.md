@@ -27,13 +27,17 @@ cd DroneDesign
 
 2. Create a Virtual Environment (Optional but recommended):
 
-python```python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 
 3. Install Dependencies:
 
-bash```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 Note: Ensure that you have Python 3.7 or higher installed.
 
@@ -43,13 +47,15 @@ Note: Ensure that you have Python 3.7 or higher installed.
 
 To launch the application, execute the following command:
 
-bash```python main.py```
+```bash
+python main.py
+```
 
 Upon launching, the GUI will allow you to input design parameters, perform calculations, and visualize results pertinent to UAV design.
 
 Project Structure
 
-```text
+```
 DroneDesign/
 ├── BreezeStyleSheets/       # Custom QML stylesheets for GUI theming
 ├── PERFILES_WEB/            # Web-based profiles or resources
@@ -71,7 +77,8 @@ DroneDesign/
 ├── main.pyproject.user      # User-specific project settings
 ├── Newmainwindow.ui         # UI design file
 ├── SearchButton.svg         # SVG asset for search functionality
-└── README.md                # Project documentation ```
+└── README.md                # Project documentation
+```
 
 ## Dependencies
 
@@ -95,17 +102,23 @@ Contributions are welcome and appreciated. To contribute:
 
 2. Create a new branch:
 
-bash```git checkout -b feature/YourFeature```
+```bash
+git checkout -b feature/YourFeature
+```
 
 
 3. Commit your changes:
 
-bash```git commit -m 'Add YourFeature'```
+```bash
+git commit -m 'Add YourFeature'
+```
 
 
 4. Push to the branch:
 
-bash```git push origin feature/YourFeature```
+```bash
+git push origin feature/YourFeature
+```
 
 
 5. Open a pull request detailing your changes.
