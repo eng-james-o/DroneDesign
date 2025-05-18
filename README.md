@@ -19,8 +19,10 @@ DroneDesign is a Python-based application designed to assist aerospace engineers
 
 1. Clone the Repository:
 
-bash```git clone https://github.com/eng-james-o/DroneDesign.git
-cd DroneDesign```
+```bash
+git clone https://github.com/eng-james-o/DroneDesign.git
+cd DroneDesign
+```
 
 
 2. Create a Virtual Environment (Optional but recommended):
@@ -47,7 +49,7 @@ Upon launching, the GUI will allow you to input design parameters, perform calcu
 
 Project Structure
 
-text```
+```text
 DroneDesign/
 ├── BreezeStyleSheets/       # Custom QML stylesheets for GUI theming
 ├── PERFILES_WEB/            # Web-based profiles or resources
@@ -114,4 +116,4 @@ Please ensure that your code adheres to the project's coding standards and inclu
 
 ## License
 
-This project is licensed under the MIT License. See the (LICENSE)[LICENSE] file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
