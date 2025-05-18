@@ -47,7 +47,7 @@ Upon launching, the GUI will allow you to input design parameters, perform calcu
 
 Project Structure
 
-```
+bash```
 DroneDesign/
 ├── BreezeStyleSheets/       # Custom QML stylesheets for GUI theming
 ├── PERFILES_WEB/            # Web-based profiles or resources
@@ -69,7 +69,8 @@ DroneDesign/
 ├── main.pyproject.user      # User-specific project settings
 ├── Newmainwindow.ui         # UI design file
 ├── SearchButton.svg         # SVG asset for search functionality
-└── README.md                # Project documentation```
+└── README.md                # Project documentation
+```
 
 ## Dependencies
 
@@ -93,17 +94,17 @@ Contributions are welcome and appreciated. To contribute:
 
 2. Create a new branch:
 
-git checkout -b feature/YourFeature
+bash```git checkout -b feature/YourFeature```
 
 
 3. Commit your changes:
 
-git commit -m 'Add YourFeature'
+bash```git commit -m 'Add YourFeature'```
 
 
 4. Push to the branch:
 
-git push origin feature/YourFeature
+bash```git push origin feature/YourFeature```
 
 
 5. Open a pull request detailing your changes.
