@@ -1,4 +1,4 @@
-from save import data
+from functions.save import data
 
 class constants(data):
     '''storage for basic constants used in the main part of the

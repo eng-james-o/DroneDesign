@@ -6,7 +6,7 @@ import pandas as pd
 
 from PyQt5.uic import loadUiType
 
-prop_ui, _ = loadUiType('prop_graph.ui')
+prop_ui, _ = loadUiType(r'src\ui\prop_graph.ui')
 
 class propeller(prop_ui,QWidget):
     def __init__(self, parent):

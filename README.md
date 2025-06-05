@@ -4,128 +4,87 @@ DroneDesign is a Python-based application designed to assist aerospace engineers
 
 ## Features
 
-1. Aerodynamic Calculations: Compute essential parameters such as lift, drag, and thrust requirements based on user-defined inputs.
-
-2. Propeller Analysis: Evaluate propeller performance characteristics to optimize thrust and efficiency.
-
-3. Graphical User Interface (GUI): Intuitive interface built with PySide2 and QML for seamless user interaction.
-
-4. Data Visualization: Integrated plotting capabilities using Matplotlib for real-time visualization of performance metrics.
-
-5. Modular Architecture: Organized codebase with modular components for ease of maintenance and scalability.
-
+- **Aerodynamic Calculations:** Compute essential parameters such as lift, drag, and thrust requirements based on user-defined inputs.
+- **Propeller Analysis:** Evaluate propeller performance characteristics to optimize thrust and efficiency.
+- **Graphical User Interface (GUI):** Intuitive interface built with PyQt5 and Qt Designer UI files for seamless user interaction.
+- **Data Visualization:** Integrated plotting capabilities using Matplotlib for real-time visualization of performance metrics.
+- **Modular Architecture:** Organized codebase with modular components for ease of maintenance and scalability.
 
 ## Installation
 
-1. Clone the Repository:
+1. **Clone the Repository:**
 
-```bash
-git clone https://github.com/eng-james-o/DroneDesign.git
-cd DroneDesign
-```
+    ```bash
+    git clone https://github.com/eng-james-o/DroneDesign.git
+    cd DroneDesign
+    ```
 
+2. **Create a Virtual Environment (Recommended):**
 
-2. Create a Virtual Environment (Optional but recommended):
+    ```bash
+    python -m venv venv
+    # On Windows:
+    venv\Scripts\activate
+    # On macOS/Linux:
+    source venv/bin/activate
+    ```
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+3. **Install Dependencies:**
 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-3. Install Dependencies:
+    > Ensure that you have Python 3.7 or higher installed.
 
-```bash
-pip install -r requirements.txt
-```
+## Project Structure
 
-Note: Ensure that you have Python 3.7 or higher installed.
-
-
-
-## Usage
-
-To launch the application, execute the following command:
-
-```bash
-python main.py
-```
-
-Upon launching, the GUI will allow you to input design parameters, perform calculations, and visualize results pertinent to UAV design.
-
-Project Structure
-
-```
+```text
 DroneDesign/
-├── BreezeStyleSheets/       # Custom QML stylesheets for GUI theming
-├── PERFILES_WEB/            # Web-based profiles or resources
-├── UI/                      # QML files defining the user interface
-├── functions/               # Core computational functions
-├── other_assets/            # Additional assets (e.g., images, icons)
-├── propeller/               # Modules related to propeller analysis
-├── __pycache__/             # Compiled Python files
-├── main.py                  # Entry point of the application
-├── constants.py             # Global constants used across modules
-├── mplwidget.py             # Matplotlib integration for PySide2
-├── plotwidget.py            # Custom plotting widgets
-├── propeller.py             # Propeller computation logic
-├── propellerwidget.py       # GUI widget for propeller analysis
-├── save.py                  # Functionality to save/load project data
-├── storage.txt              # Temporary storage file
-├── todo.txt                 # Development to-do list
-├── main.pyproject           # Project configuration file
-├── main.pyproject.user      # User-specific project settings
-├── Newmainwindow.ui         # UI design file
-├── SearchButton.svg         # SVG asset for search functionality
-└── README.md                # Project documentation
+├── assets/                  # Images, icons, and other static assets
+├── src/
+│   ├── __init__.py
+│   ├── main.py              # Entry point of the application
+│   ├── constants.py         # Global constants used across modules
+│   ├── mplwidget.py         # Matplotlib integration for PyQt5
+│   ├── plotwidget.py        # Custom plotting widgets
+│   ├── propeller.py         # Propeller computation logic
+│   ├── propellerwidget.py   # GUI widget for propeller analysis
+│   ├── save.py              # Functionality to save/load project data
+│   ├── functions/           # Core computational functions
+│   ├── propeller/           # Modules related to propeller analysis
+│   ├── BreezeStyleSheets/   # Custom Qt stylesheets for GUI theming
+│   ├── PERFILES_WEB/        # Web-based profiles or resources
+│   └── ui/                  # Qt Designer .ui files
+│       └── Newmainwindow.ui
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
+
+## Running the Application
+
+To launch the application, run:
+
+```bash
+python src/main.py
+```
+
+The GUI will allow you to input design parameters, perform calculations, and visualize results pertinent to UAV design.
 
 ## Dependencies
 
-1. Python 3.7+
+- Python 3.7+
+- PyQt5: For GUI development using Qt Designer UI files.
+- Matplotlib: For plotting and data visualization.
+- NumPy: For numerical computations.
 
-2. PySide2: For GUI development using Qt for Python.
+Additional dependencies can be found in the `requirements.txt` file.
 
-3. Matplotlib: For plotting and data visualization.
+## Acknowledgements
 
-4. NumPy: For numerical computations.
-
-
-Additional dependencies can be found in the requirements.txt file.
-
-## Contributing
-
-Contributions are welcome and appreciated. To contribute:
-
-1. Fork the repository.
-
-
-2. Create a new branch:
-
-```bash
-git checkout -b feature/YourFeature
-```
-
-
-3. Commit your changes:
-
-```bash
-git commit -m 'Add YourFeature'
-```
-
-
-4. Push to the branch:
-
-```bash
-git push origin feature/YourFeature
-```
-
-
-5. Open a pull request detailing your changes.
-
-
-
-Please ensure that your code adheres to the project's coding standards and includes appropriate documentation.
+Styling is based on [BreezeStyleSheets](https://github.com/eng-james-o/BreezeStyleSheets), a fork of [QDarkStyleSheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet) with custom edits.
 
 ## License
 

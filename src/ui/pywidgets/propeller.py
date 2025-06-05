@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QVBoxLayout, QHBoxLayout,QWidget
 from PyQt5.QtWidgets import QSlider, QLabel, QRadioButton
 from PyQt5.QtCore import Qt
 from mplwidget import MplWidget
+
 class propeller(QWidget):
     def __init__(self,parent):
         QWidget.__init__(self,parent)

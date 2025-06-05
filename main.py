@@ -16,7 +16,7 @@ rpm_pattern = '_(\d+)\.[a-zA-Z]{3}'
 rpm = r'PROP RPM = (\d+)'
 space = '\s+'
 
-ui, _ = loadUiType(r"C:\Users\PC\Documents\qt_projects\dronedesign - Copy\UI\mainwindow.ui")
+ui, _ = loadUiType(r"src\ui\mainwindow.ui")
 import BreezeStyleSheets.breeze_resources
 
 from functions.file import load, match

@@ -1,1 +1,8 @@
 /PERFILES_WEB-202009.zipx
+*.pyproject
+*.pyproject.*
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+venv
