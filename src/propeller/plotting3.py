@@ -13,16 +13,7 @@ import pyqtgraph as pg
 #from data import save_propeller
 
 from PyQt5.uic import loadUiType
-prop_ui, _ = loadUiType(r"C:\Users\PC\Documents\qt_projects\dronedesign - Copy\UI\prop_graph.ui")
-
-#---------COMMENTS AND TO DO ----------------------------------
-'remember to remove unnecessary ifs with signals and slots'
-'combine setMinimum and setMaximum into setRange'
-'use events to automatically set text of lineEdit once slider is set programmatically'
-'use event to automatically set self.value once slider is moved programmatically'
-'use even to know when a radiobutton was clicked but the choice wasnt changed'
-'extend all the classes to do their functions with clean code'
-'only call legend when the plot is reinitialized like with the radiobuttons'
+prop_ui, _ = loadUiType(r"src\ui\prop_graph.ui")
 
 class propeller(prop_ui, QWidget):
     def __init__(self, parent):
